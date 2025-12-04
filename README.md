@@ -51,7 +51,7 @@ Akankah William menemukan matahari terbitnya lagi? Apakah ia akan menemukan caha
     * Klik *Add* -> Pilih folder `Sagara-Lara`.
     
 ## Credits
-* **Manager:** Gil
+* **Game Producer:** Gil
 * **Game Designer:** Jepp, Arun, Ghazi
 * **Writer:** Keira, Vari
 * **Programmer:** Ghazi, Vara, Nanda
