@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6674941360348339912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733161704219810047}
+  - component: {fileID: 3720189500781910593}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &733161704219810047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6674941360348339912}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3720189500781910593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6674941360348339912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc4b3dd5bbfda842b8b2aaae82aae5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: EnemyDeath
+    clip: {fileID: 8300000, guid: 1e7566498bf051b41ad5ed74fe292bac, type: 3}
+    type: 1
+    volume: 0.6
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: LampuPecah
+    clip: {fileID: 8300000, guid: a3c3017ad7ec325428e787c9256d6d6c, type: 3}
+    type: 1
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: Heartbeat
+    clip: {fileID: 8300000, guid: 96c7da567e9ab4844a8b9096ee41ddae, type: 3}
+    type: 1
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Peluru
+    clip: {fileID: 8300000, guid: d843cf742573b06499538978f7a2526d, type: 3}
+    type: 1
+    volume: 0.6
+    pitch: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - name: OpeningTheme
+    clip: {fileID: 8300000, guid: 259daff46fb086d43972f1710f7fd8cd, type: 3}
+    type: 0
+    volume: 0.35
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: TensionTheme
+    clip: {fileID: 8300000, guid: d637177816440584dac801c35ecff4fb, type: 3}
+    type: 0
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BossTheme
+    clip: {fileID: 8300000, guid: 0c395a60b743d6141a898f9347cbff81, type: 3}
+    type: 0
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: AmbienceWave
+    clip: {fileID: 8300000, guid: 726dc6ce3d822ee4e8edf308bcde2846, type: 3}
+    type: 0
+    volume: 0.6
+    pitch: 2
+    loop: 1
+    source: {fileID: 0}
+  - name: AmbienceWind
+    clip: {fileID: 8300000, guid: a67eae006d89b7a4eb68685c601fd767, type: 3}
+    type: 0
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: EarRingingHighPitch
+    clip: {fileID: 8300000, guid: 717b8d32b85622c46989abeef2de5b85, type: 3}
+    type: 0
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: EarRingingLowPitch
+    clip: {fileID: 8300000, guid: ff2c9cdeeef13ca46a28dc8ea3d9d892, type: 3}
+    type: 0
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: DepressionTheme
+    clip: {fileID: 8300000, guid: d6c3b4e3656a1494dbbfa6a3d13d8ccc, type: 3}
+    type: 0
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Whisper1
+    clip: {fileID: 8300000, guid: 32666e8f1f87a58449a8a18064a840a9, type: 3}
+    type: 0
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Whisper2
+    clip: {fileID: 8300000, guid: 7bc72cfb953049e4d9624c049867afdd, type: 3}
+    type: 0
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Whisper3
+    clip: {fileID: 8300000, guid: 6cc90f627eab8cb479111f6a3baa42fa, type: 3}
+    type: 0
+    volume: 0.35
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Whisper4
+    clip: {fileID: 8300000, guid: 8ab6e81345525b942a36d35b02659450, type: 3}
+    type: 0
+    volume: 0.4
+    pitch: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Whisper5
+    clip: {fileID: 8300000, guid: daeb2366cf615274f885e1db430f15d7, type: 3}
+    type: 0
+    volume: 0.35
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Whisper6
+    clip: {fileID: 8300000, guid: a8256fc50f922af40bf4306537465480, type: 3}
+    type: 0
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Swim
+    clip: {fileID: 8300000, guid: dcaf7e1104b58724294f964d01138e1e, type: 3}
+    type: 1
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Typing
+    clip: {fileID: 8300000, guid: ca44afc2564d37c409f9b53f26abb4cd, type: 3}
+    type: 1
+    volume: 0.5
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: Combo1
+    clip: {fileID: 8300000, guid: c8719f33d04ce134896d21bf17d5948a, type: 3}
+    type: 1
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Combo2
+    clip: {fileID: 8300000, guid: 603a134e5b2b9654eaeeb011e10a51da, type: 3}
+    type: 1
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Combo3
+    clip: {fileID: 8300000, guid: 49160635f165c2343851d1168c128558, type: 3}
+    type: 1
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Combo4
+    clip: {fileID: 8300000, guid: 118bdeb46bb249c418a551fb6fa68b31, type: 3}
+    type: 1
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Combo5
+    clip: {fileID: 8300000, guid: 316c8297569909d41b175083b3b57e21, type: 3}
+    type: 1
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Combo6
+    clip: {fileID: 8300000, guid: b5fa602dc7817bc4db335feafb7fd21f, type: 3}
+    type: 1
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Tetot
+    clip: {fileID: 8300000, guid: 381a0aa0366530f42964aa2441c6123b, type: 3}
+    type: 1
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  musicMasterVolume: 1
+  sfxMasterVolume: 1
+  whisperNames:
+  - Whisper1
+  - Whisper2
+  - Whisper3
+  - Whisper4
+  - Whisper5
+  - Whisper6
+  minWhisperInterval: 5
+  maxWhisperInterval: 12
