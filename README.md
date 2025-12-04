@@ -28,7 +28,7 @@ Akankah William menemukan matahari terbitnya lagi? Apakah ia akan menemukan caha
 
 ---
 
-## Getting Started (For Developers)
+## Setup
 
 ### Prasyarat
 * Unity Hub & Unity Editor 2022.3.62f1.
