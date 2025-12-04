@@ -52,10 +52,10 @@ Akankah William menemukan matahari terbitnya lagi? Apakah ia akan menemukan caha
     
 ## Credits
 * **Manager:** Gil
-* **Game Design:** Jepp, Arun, Ghazi
-* **Story:** Keira, Vari
+* **Game Designer:** Jepp, Arun, Ghazi
+* **Writer:** Keira, Vari
 * **Programmer:** Ghazi, Vara, Nanda
-* **Artist:** Nay, Lysta, Belle, Ghinaa
-* **Sound Engineer:** Jepp
+* **Visual Artist:** Nay, Lysta, Belle, Ghinaa
+* **Audio Artist:** Jepp
 
 ---
