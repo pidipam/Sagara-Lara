@@ -1,4 +1,4 @@
-# Sagara Lara by Gimddy Kitty
+# [Sagara Lara]{https://ghazi2309.itch.io/typegame-20} by Gimddy Kitty
 
 <img width="2520" height="2000" alt="sagara-lara" src="https://github.com/user-attachments/assets/267c1df1-9644-4397-bbf1-5633be573224" />
 
