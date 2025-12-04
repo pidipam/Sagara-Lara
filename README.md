@@ -22,7 +22,7 @@ Tetapi lautan akan memanggilnya lagi…
 Akankah William menemukan matahari terbitnya lagi? Apakah ia akan menemukan cahaya yang dapat menerangi hari-harinya lagi? Atau ia akan ditelan oleh dalamnya lautan dan diseret oleh derasnya ombak?
 
 ## Kakas
-* [Unity](https://unity.com/) - Game Engine (Version 2022.3.62f1)
+* Unity - Game Engine (Version 2022.3.62f1)
 * TextMeshPro - Text Rendering
 * Git LFS - Large File Storage
 
